@@ -6,17 +6,22 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BFC095792D3DF5740093402B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC095762D3DF5740093402B /* ContentView.swift */; };
+		BFC0957A2D3DF5740093402B /* GradientBorderShadowDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC095772D3DF5740093402B /* GradientBorderShadowDemoApp.swift */; };
+		BFC0957B2D3DF5740093402B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFC095732D3DF5740093402B /* Preview Assets.xcassets */; };
+		BFC0957C2D3DF5740093402B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFC095752D3DF5740093402B /* Assets.xcassets */; };
+		BFC0957E2D3DF9120093402B /* LeftCenterRightDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC0957D2D3DF9120093402B /* LeftCenterRightDemo.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		BFC095622D3DF56C0093402B /* GradientBorderShadowDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GradientBorderShadowDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFC095732D3DF5740093402B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BFC095752D3DF5740093402B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFC095762D3DF5740093402B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BFC095772D3DF5740093402B /* GradientBorderShadowDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBorderShadowDemoApp.swift; sourceTree = "<group>"; };
+		BFC0957D2D3DF9120093402B /* LeftCenterRightDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftCenterRightDemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		BFC095642D3DF56C0093402B /* GradientBorderShadowDemo */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = GradientBorderShadowDemo;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		BFC0955F2D3DF56C0093402B /* Frameworks */ = {
@@ -32,7 +37,7 @@
 		BFC095592D3DF56C0093402B = {
 			isa = PBXGroup;
 			children = (
-				BFC095642D3DF56C0093402B /* GradientBorderShadowDemo */,
+				BFC095782D3DF5740093402B /* GradientBorderShadowDemo */,
 				BFC095632D3DF56C0093402B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +48,26 @@
 				BFC095622D3DF56C0093402B /* GradientBorderShadowDemo.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		BFC095742D3DF5740093402B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BFC095732D3DF5740093402B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BFC095782D3DF5740093402B /* GradientBorderShadowDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BFC095762D3DF5740093402B /* ContentView.swift */,
+				BFC0957D2D3DF9120093402B /* LeftCenterRightDemo.swift */,
+				BFC095772D3DF5740093402B /* GradientBorderShadowDemoApp.swift */,
+				BFC095752D3DF5740093402B /* Assets.xcassets */,
+				BFC095742D3DF5740093402B /* Preview Content */,
+			);
+			path = GradientBorderShadowDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +84,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				BFC095642D3DF56C0093402B /* GradientBorderShadowDemo */,
 			);
 			name = GradientBorderShadowDemo;
 			packageProductDependencies = (
@@ -109,6 +131,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFC0957B2D3DF5740093402B /* Preview Assets.xcassets in Resources */,
+				BFC0957C2D3DF5740093402B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFC095792D3DF5740093402B /* ContentView.swift in Sources */,
+				BFC0957A2D3DF5740093402B /* GradientBorderShadowDemoApp.swift in Sources */,
+				BFC0957E2D3DF9120093402B /* LeftCenterRightDemo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
